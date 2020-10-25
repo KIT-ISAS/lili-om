@@ -1,2 +1,2 @@
-# LiLi-OM (Livox LiDAR-Inertial Odometry and Mapping)
+# LiLi-OM 
 ## Towards High-Performance Solid-State-LiDAR-Inertial Odometry and Mapping
