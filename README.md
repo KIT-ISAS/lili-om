@@ -1,5 +1,10 @@
 # LiLi-OM (LIvox LiDAR-Inertial Odometry and Mapping)
 ## -- Towards High-Performance Solid-State-LiDAR-Inertial Odometry and Mapping
+
+<p align='center'>
+    <img src="./doc/fr_iosb.gif" alt="drawing" width="800"/>
+</p>
+
 This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder: 
 
 - LiLi-OM, for [Livox Horizon](https://www.livoxtech.com/de/horizon) with a newly proposed feature extraction module,
@@ -33,7 +38,7 @@ System dependencies (tested on Ubuntu 18.04/20.04)
 - [ceres](http://ceres-solver.org/installation.html) (Ceres Solver 2.0)
 
 In ROS workspce: 
-- [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) (ROS driver for Livox Horizon)
+- [livox_ros_driver (v2.5.0)](https://github.com/Livox-SDK/livox_ros_driver/releases/tag/v2.5.0) (ROS driver for Livox Horizon)
 
 
 ## Compilation
