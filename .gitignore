@@ -227,3 +227,6 @@ TSWLatexianTemp*
 
 # Windows default autosave extension
 *.asv
+
+CMakeLists.txt.user
+

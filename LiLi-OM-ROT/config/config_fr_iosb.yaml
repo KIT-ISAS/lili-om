@@ -1,0 +1,45 @@
+common:
+  frame_id: "lili_om_rot"
+  data_set: "iosb"
+  
+IMU:
+  acc_n: 2000
+  gyr_n: 0.0173
+  acc_w: 2
+  gyr_w: 0.00025
+
+preprocessing:
+  lidar_topic: "/velodyne_pcl_gen/cloud"
+  ds_rate: 4
+  line_num: 64
+
+lidar_odometry:
+  max_num_iter: 12
+  scan_match_cnt: 1
+  if_to_deskew: false
+
+backend_fusion:
+  max_num_iter: 15
+  loop_closure_on: true
+  local_map_width: 50
+  lc_search_radius: 15
+  lc_map_width: 25
+  lc_icp_thres: 0.2
+  slide_window_width: 3
+  imu_topic: "/applanix/imu"
+  lidar_const: 7.5
+  mapping_interval: 2
+  lc_time_thres: 60.0
+  surf_dist_thres: 0.12
+  kd_max_radius: 1.0
+  save_pcd: false
+
+#extrinsic imu to lidar
+  ql2b_w: 0.7071
+  ql2b_x: 0
+  ql2b_y: 0
+  ql2b_z: 0.7071
+
+  tl2b_x: -0.18
+  tl2b_y: 0
+  tl2b_z: -0.095

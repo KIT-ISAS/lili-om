@@ -1,0 +1,29 @@
+<launch>
+    
+    <!--- Sim Time -->
+    <param name="/use_sim_time" value="false" />
+    
+    <!--- Velodyne_packets to velodyne_points -->
+    <node pkg="velodyne_pointcloud" type="cloud_node" name="cloud_node">
+      <remap from="/velodyne_packets" to="/hdl32e_left/velodyne_packets"/>
+      <param name="calibration" value="$(find velodyne_pointcloud)/params/32db.yaml"/>
+      <param name="min_range" value="0.4"/>
+      <param name="max_range" value="130.0"/>
+      <param name="view_direction" value="3.1415926"/>
+      <param name="view_width" value="5.4769"/>
+    </node>
+
+    <!--- Run Rviz-->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find lili_om_rot)/config/test.rviz" />
+
+    <!-- Parameters -->
+    <rosparam file = "$(find lili_om_rot)/config/config_utbm.yaml"/>
+    
+    <node pkg="tf" type="static_transform_publisher" name="lili_om_rot" args="0 0 0 0 0 0 base_link lili_om_rot 50"/>
+
+    <!--- lili_om_rot -->
+    <node pkg="lili_om_rot" type="Preprocessing" name="Preprocessing" output="screen"/>
+    <node pkg="lili_om_rot" type="LidarOdometry" name="LidarOdometry" output="screen"/>
+    <node pkg="lili_om_rot" type="BackendFusion" name="BackendFusion" output="screen"/>
+
+</launch>

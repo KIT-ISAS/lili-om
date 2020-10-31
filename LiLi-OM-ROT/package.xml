@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>lili_om_rot</name>
+  <version>0.0.0</version>
+  <description>An Variant of LiLi-OM (Livox LiDAR-Inertial Odometry and Mapping) for rotational LiDARs)</description>
+
+  <maintainer email="kailai.li@kit.edu">Kailai Li</maintainer>
+  <license>TO DO</license>
+
+  <author email="limeng1523@outlook.com">Meng Li</author>
+  <author email="kailai.li@kit.edu">Kailai Li</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+</package>

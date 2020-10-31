@@ -1,0 +1,42 @@
+common:
+  frame_id: "lili_om"
+  
+preprocessing:
+  surf_thres: 0.28 
+  edge_thres: 4 
+
+lidar_odometry:
+  max_num_iter: 15
+  scan_match_cnt: 1
+  if_to_deskew: false
+
+backend_fusion:
+  imu_topic: "/imu/data"
+  max_num_iter: 15 
+  local_map_width: 30
+  slide_window_width: 3 
+  lidar_const: 15 
+  reflect_thres: 15.0
+  surf_dist_thres: 0.12
+  kd_max_radius: 1.0
+  surf_ds: 0.4
+  edge_ds: 0.2
+  loop_closure_on: true
+  global_lc_time_thres: 40.0
+  local_lc_time_thres: 40.0
+  lc_search_radius: 10
+  lc_map_width: 20
+  lc_icp_thres: 0.15 
+  mapping_interval: 3
+  save_pcd: false
+  mapping_ds: 0.2
+
+#extrinsic imu to lidar
+  ql2b_w: 0
+  ql2b_x: 0
+  ql2b_y: 0
+  ql2b_z: 1
+
+  tl2b_x: -0.0265
+  tl2b_y: 0.0202
+  tl2b_z: 0.05309
