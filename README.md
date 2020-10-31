@@ -61,12 +61,12 @@ catkin build lili_om_rot
 - Example for running lili_om (Livox Horizon):
 ```
 roslaunch lili_om run_fr_iosb.launch
-rosbag play FR_IOSB_Long.bag -r 1.0 --clock --pause
+rosbag play FR_IOSB_Short.bag -r 1.0 --clock --pause
 ```
 - Example for running lili_om_rot (spinning LiDAR like the Velodyne HDL-64E in FR_IOSB data set):
 ```
 roslaunch lili_om_rot run_fr_iosb.launch
-rosbag play FR_IOSB_Long_64.bag -r 1.0 --clock --pause
+rosbag play FR_IOSB_Short_64.bag -r 1.0 --clock --pause
 ```
 
 ## Contributors
