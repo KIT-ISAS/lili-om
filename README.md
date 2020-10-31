@@ -71,4 +71,4 @@ rosbag play FR_IOSB_Short_64.bag -r 1.0 --clock --pause
 ## Contributors
 Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 
-[Kailai Li](https://isas.iar.kit.edu/Staff_Li.php) (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
+Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
