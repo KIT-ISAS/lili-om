@@ -4,6 +4,9 @@
 <p align='center'>
     <img src="./doc/fr_iosb.gif" alt="drawing" width="800"/>
 </p>
+<p align='center'>
+    <img src="./doc/platform.jpg" alt="drawing" width="600"/>
+</p>
 
 This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder: 
 
