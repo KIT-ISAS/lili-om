@@ -38,7 +38,7 @@ System dependencies (tested on Ubuntu 18.04/20.04)
 - [ceres](http://ceres-solver.org/installation.html) (Ceres Solver 2.0)
 
 In ROS workspce: 
-- [livox_ros_driver](https://github.com/Livox-SDK/livox_ros_driver) (ROS driver for Livox Horizon)
+- [livox_ros_driver (v2.5.0)](https://github.com/Livox-SDK/livox_ros_driver/releases/tag/v2.5.0) (ROS driver for Livox Horizon)
 
 
 ## Compilation
