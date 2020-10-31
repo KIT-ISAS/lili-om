@@ -1,5 +1,10 @@
 # LiLi-OM (LIvox LiDAR-Inertial Odometry and Mapping)
 ## -- Towards High-Performance Solid-State-LiDAR-Inertial Odometry and Mapping
+
+<p align='center'>
+    <img src="./doc/iosbgithub5.gif" alt="drawing" width="800"/>
+</p>
+
 This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder: 
 
 - LiLi-OM, for [Livox Horizon](https://www.livoxtech.com/de/horizon) with a newly proposed feature extraction module,
