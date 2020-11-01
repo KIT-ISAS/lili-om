@@ -55,7 +55,7 @@ catkin build lili_om_rot
 ```
 ## Usasge
 1. Run a launch file for lili_om or lili_om_rot 
-2. Play bag file
+2. Play the bag file
 
 - Example for running lili_om (Livox Horizon):
 ```
