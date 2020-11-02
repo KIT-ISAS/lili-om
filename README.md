@@ -26,6 +26,7 @@ Thank you for citing our [*LiLi-OM* paper](https://arxiv.org/pdf/2010.13150.pdf)
  year = {2020}
 }
 ```
+The paper has been submitted to IEEE Robotics and Automation Letters (RA-L).
 
 ## Data sets
 We provide data sets recorded by Livox Horizon (10 Hz) and Xsens MTi-670 (200 Hz)
