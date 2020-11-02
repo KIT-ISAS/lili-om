@@ -54,7 +54,7 @@ catkin build livox_ros_driver
 catkin build lili_om
 catkin build lili_om_rot
 ```
-## Usasge
+## Usage
 1. Run a launch file for lili_om or lili_om_rot 
 2. Play the bag file
 
