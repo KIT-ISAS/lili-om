@@ -73,3 +73,8 @@ rosbag play FR_IOSB_Short_64.bag -r 1.0 --clock --pause
 Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 
 Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
+
+## License
+The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
+
+We are constantly working on improving our code. For any technical issues or commercial use, please contact Kailai Li < kailai.li@kit.edu > with Intelligent Sensor-Actuator-Systems Lab (ISAS), Karlsruhe Institute of Technology (KIT).
