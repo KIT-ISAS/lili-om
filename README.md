@@ -14,7 +14,7 @@ Both variants exploit the same backend module, which is proposed to directly fus
     <img src="./doc/platform.jpg" alt="drawing" width="600"/>
 </p>
 
-## Cite
+## BibTex Citation
 Thank you for citing our [*LiLi-OM* paper](https://arxiv.org/pdf/2010.13150.pdf) if you use any of this code: 
 ```
 @article{arXiv20_Li,
