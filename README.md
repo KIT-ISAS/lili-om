@@ -74,6 +74,9 @@ Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 
 Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
 
+## Credits
+We hereby recommend reading [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) and [LIO-mapping](https://github.com/hyye/lio-mapping) for reference.
+
 ## License
 The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
 
