@@ -77,4 +77,4 @@ Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
 ## License
 The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
 
-We are constantly working on improving our code. For any technical issues or commercial use, please contact Kailai Li < kailai.li@kit.edu > with Intelligent Sensor-Actuator-Systems Lab ([ISAS](https://isas.iar.kit.edu/)), Karlsruhe Institute of Technology ([KIT](http://www.kit.edu/english/index.php)), Germany.
+We are constantly working on improving our code. For technical issues or commercial use, please contact Kailai Li < kailai.li@kit.edu > with Intelligent Sensor-Actuator-Systems Lab ([ISAS](https://isas.iar.kit.edu/)), Karlsruhe Institute of Technology ([KIT](http://www.kit.edu/english/index.php)), Germany.
