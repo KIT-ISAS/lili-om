@@ -31,7 +31,7 @@ The work has been submitted to IEEE Robotics and Automation Letters (RA-L).
 ## Data sets
 We provide data sets recorded by Livox Horizon (10 Hz) and Xsens MTi-670 (200 Hz)
 
-[Download Link](https://isas-server.iar.kit.edu/lidardataset/) 
+Download from [isas-server](https://isas-server.iar.kit.edu/lidardataset/) or [OneDrive](https://kit0-my.sharepoint.com/:f:/g/personal/kailai_li_kit_edu/EvhG1_sCjwFBnVeP3xlFsh0BIz-T3MsAgxBpMOZxyERYMw?e=oetpRX)
 
 ## Dependency
 
