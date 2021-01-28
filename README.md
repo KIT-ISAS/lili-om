@@ -69,6 +69,12 @@ roslaunch lili_om_rot run_fr_iosb.launch
 rosbag play FR_IOSB_Short_64.bag -r 1.0 --clock --pause
 ```
 
+- Example for running lili_om (When using Livox Horizon's internal IMU):
+```
+roslaunch lili_om run_fr_iosb_internal_imu.launch
+rosbag play FR_IOSB_Short.bag -r 1.0 --clock --pause --topics /livox/lidar /livox/imu
+```
+
 ## Contributors
 Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 

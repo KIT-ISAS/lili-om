@@ -13,7 +13,7 @@ class imu_rescaller:
     pub_topic_name = "/imu/data"
     sub_topic_name = "/livox/imu"
 
-    self.pub = rospy.Publisher(pub_topic_name, Imu, queue_size = 10)
+    self.pub = rospy.Publisher(pub_topic_name, Imu, queue_size = 200)
     rospy.Subscriber(sub_topic_name, Imu, self.callback)
 
     self.orientation_avg_count = 0
@@ -30,10 +30,6 @@ class imu_rescaller:
     msg.linear_acceleration.x = imu.linear_acceleration.x * self.unit_acc
     msg.linear_acceleration.y = imu.linear_acceleration.y * self.unit_acc
     msg.linear_acceleration.z = imu.linear_acceleration.z * self.unit_acc
-
-    msg.angular_velocity.x = imu.angular_velocity.x
-    msg.angular_velocity.y = imu.angular_velocity.y
-    msg.angular_velocity.z = imu.angular_velocity.z
 
     if self.orientation_avg_count < self.orientation_avg_num:
       self.imu_first_msg.linear_acceleration.x += msg.linear_acceleration.x
@@ -62,7 +58,6 @@ class imu_rescaller:
         self.imu_first_msg.orientation.w = q[3]
         
     else: 
-      msg.header = imu.header
       msg.orientation = self.imu_first_msg.orientation
       self.pub.publish(msg)
 
