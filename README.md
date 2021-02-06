@@ -69,17 +69,19 @@ roslaunch lili_om_rot run_fr_iosb.launch
 rosbag play FR_IOSB_Short_64.bag -r 1.0 --clock --pause
 ```
 
-- Example for running lili_om (When using Livox Horizon's internal IMU):  
-\*When using the internal IMU, the LiDAR must be stationary at the start.
+- Example for running lili_om using the internal IMU of Livox Horizon:  
 ```
 roslaunch lili_om run_fr_iosb_internal_imu.launch
 rosbag play FR_IOSB_Short.bag -r 1.0 --clock --pause --topics /livox/lidar /livox/imu
 ```
+For live test or own recorded data sets, the system should start at a stationary state. 
 
 ## Contributors
 Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 
 Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
+
+[kamibukuro5656](https://github.com/kamibukuro5656)
 
 ## Credits
 We hereby recommend reading [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) and [LIO-mapping](https://github.com/hyye/lio-mapping) for reference.
