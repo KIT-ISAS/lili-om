@@ -76,11 +76,12 @@ rosbag play FR_IOSB_Short.bag -r 1.0 --clock --pause --topics /livox/lidar /livo
 ```
 For live test or own recorded data sets, the system should start at a stationary state. 
 
-## Contributors
+## Authors
 Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 
 Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
 
+## Contributors
 [kamibukuro5656](https://github.com/kamibukuro5656)
 
 ## Credits
