@@ -12,6 +12,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <depend>roscpp</depend>
+  <depend>rospy</depend>
   <depend>std_msgs</depend>
   <depend>nav_msgs</depend>
   <depend>sensor_msgs</depend>
