@@ -15,7 +15,7 @@ Both variants exploit the same backend module, which is proposed to directly fus
 </p>
 
 ## BibTex Citation
-Thank you for citing our LiLi-OM paper on [IEEE](https://ieeexplore.ieee.org/document/9392274) or [ArXiv](https://arxiv.org/pdf/2010.13150.pdf) if you use any of this code: 
+Thank you for citing our LiLi-OM paper on [IEEE](https://ieeexplore.ieee.org/document/9392274) or [ArXiv](https://arxiv.org/abs/2010.13150) if you use any of this code: 
 ```
 @article{liliom,
   author={Li, Kailai and Li, Meng and Hanebeck, Uwe D.},
