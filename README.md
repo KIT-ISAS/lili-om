@@ -15,19 +15,19 @@ Both variants exploit the same backend module, which is proposed to directly fus
 </p>
 
 ## BibTex Citation
-Thank you for citing our [*LiLi-OM* paper](https://arxiv.org/pdf/2010.13150.pdf) if you use any of this code: 
+Thank you for citing our LiLi-OM paper on [IEEE](https://ieeexplore.ieee.org/document/9392274) or [ArXiv](https://arxiv.org/pdf/2010.13150.pdf) if you use any of this code: 
 ```
-@article{arXiv20_Li,
- author = {Kailai Li and Meng Li and Uwe D. Hanebeck},
- journal = {arXiv preprint arXiv:2010.13150},
- month = {October},
- title = {Towards High-Performance Solid-State-LiDAR-Inertial Odometry and Mapping},
- url = {https://arxiv.org/abs/2010.13150},
- year = {2020}
-}
+@article{liliom,
+  author={Li, Kailai and Li, Meng and Hanebeck, Uwe D.},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Towards High-Performance Solid-State-LiDAR-Inertial Odometry and Mapping}, 
+  year={2021},
+  volume={6},
+  number={3},
+  pages={5167-5174},
+  doi={10.1109/LRA.2021.3070251}
+  }
 ```
-The work has been accepted to IEEE Robotics and Automation Letters (RA-L).
-
 ## Data sets
 We provide data sets recorded by Livox Horizon (10 Hz) and Xsens MTi-670 (200 Hz)
 
