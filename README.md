@@ -79,7 +79,7 @@ For live test or own recorded data sets, the system should start at a stationary
 ## Contributors
 Meng Li (Email: [limeng1523@outlook.com](limeng1523@outlook.com))
 
-Kailai Li (Email: [kailai.li@kit.edu](kailai.li@kit.edu))
+Kailai Li (Email: [kailai.li@liu.se](kailai.li@liu.se))
 
 [kamibukuro5656](https://github.com/kamibukuro5656)
 
